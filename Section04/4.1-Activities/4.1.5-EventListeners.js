@@ -12,6 +12,7 @@ document
   );
 
 // add an event listener to the whole page that listens for a "keydown" event and prints the key that was pressed
+// id is # and class is .
 document
   .querySelector("body")
   .addEventListener("keypress", event => console.log(event.key));
